@@ -6,7 +6,7 @@
 
 header {
     width: 100%;
-    height: auto;
+    height: 150vh;
     background-color: ghostwhite;
 }
 
@@ -118,6 +118,11 @@ a {
         margin: 0;
         padding: 0;
     }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
 
     .logo {
         height: auto;
@@ -154,6 +159,11 @@ a {
         margin: 0;
         padding: 0;
     }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
 
     .logo {
         height: auto;
@@ -185,7 +195,11 @@ a {
         margin: 0;
         padding: 0;
     }
-
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
     .logo {
         height: auto;
         display: flex;
@@ -217,6 +231,11 @@ a {
     * {
         margin: 0;
         padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 132vh;
+        background-color: ghostwhite;
     }
 
     .logo {
@@ -255,7 +274,11 @@ a {
         margin: 0;
         padding: 0;
     }
-
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
     .logo {
         height: auto;
         display: flex;
@@ -294,7 +317,11 @@ a {
         margin: 0;
         padding: 0;
     }
-
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
     .logo {
         height: auto;
         display: flex;
@@ -332,7 +359,11 @@ a {
         margin: 0;
         padding: 0;
     }
-
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
     .logo {
         height: auto;
         display: flex;
@@ -449,5 +480,14 @@ a {
         margin-right: 90px;
         align-items: center;
     }
-
+    @media only screen and (min-width: 375px)
+    {
+        header{
+            height: 667px;
+            background-color: ghostwhite;
+        }
+        #div5{
+            margin-bottom: 20px;
+        }
+    }
 }
